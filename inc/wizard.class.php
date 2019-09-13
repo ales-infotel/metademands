@@ -759,6 +759,7 @@ class PluginMetademandsWizard extends CommonDBTM {
                }
             }
             break;
+         case 'link':
          case 'text':
             echo "<input type='text' name='field[" . $data['id'] . "]' value='" . $value . "'>";
             break;
